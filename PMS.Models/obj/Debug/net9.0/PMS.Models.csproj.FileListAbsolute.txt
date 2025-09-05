@@ -1,0 +1,11 @@
+c:\Users\yuyan\wk3\PMS.Models\bin\Debug\net9.0\PMS.Models.deps.json
+c:\Users\yuyan\wk3\PMS.Models\bin\Debug\net9.0\PMS.Models.dll
+c:\Users\yuyan\wk3\PMS.Models\bin\Debug\net9.0\PMS.Models.pdb
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.AssemblyInfoInputs.cache
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.AssemblyInfo.cs
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.csproj.CoreCompileInputs.cache
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.dll
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\refint\PMS.Models.dll
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.pdb
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\ref\PMS.Models.dll

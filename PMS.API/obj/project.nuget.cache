@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2TA8QNcL/ZM=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
