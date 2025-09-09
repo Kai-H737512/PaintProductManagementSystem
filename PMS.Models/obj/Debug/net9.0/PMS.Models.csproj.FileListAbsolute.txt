@@ -9,3 +9,4 @@ c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.dll
 c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\refint\PMS.Models.dll
 c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.pdb
 c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\ref\PMS.Models.dll
+c:\Users\yuyan\wk3\PMS.Models\obj\Debug\net9.0\PMS.Models.sourcelink.json

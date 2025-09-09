@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {}
+    "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {
+    "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
         "projectName": "PMS.API",
-        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.API\\obj\\",
+        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
-                "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
+              "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+                "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
               }
             }
           }
@@ -57,6 +57,24 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -82,14 +100,14 @@
         }
       }
     },
-    "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+    "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "projectName": "PMS.Models",
-        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
+        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

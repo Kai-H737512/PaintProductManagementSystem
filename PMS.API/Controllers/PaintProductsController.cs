@@ -37,6 +37,20 @@ namespace PMS.API.Controllers
             return Ok(paintProduct);
         }
 
+        [HttpDelete("{productId}")]
+        public IActionResult DeleteProductById(int productId)
+        {
+            var paintProduct = PaintProducts.FirstOrDefault(p => p.Id == productId);
+            return Ok(paintProduct);
+        }
+
+        [HttpPut("{productId}")]
+        public IActionResult UpdateProductById(int productId)
+        {
+            var paintProduct = PaintProducts.FirstOrDefault(p => p.Id == productId);
+            return Ok(paintProduct);
+        }
+
         //创建一个新的接口来创建新的product
         //REST design,  URI 一致性，尽量去利用URI 来描述这个接口的行为， 而不是用routing名称
         [HttpPost]
@@ -46,7 +60,17 @@ namespace PMS.API.Controllers
             // return StatusCode((int)HttpStatusCode.Created);
             // return StatusCode(201);
             // return Created($"/api/PaintProducts/{paintProduct.Id}", paintProduct);
-            return CreatedAtAction(nameof(GetProductById),  new { paintProduct.Id}, paintProduct);
+            return CreatedAtAction(nameof(GetProductById), new { productId = paintProduct.Id }, paintProduct);
+        }
+
+        //创建一个新的endpoint, Filter products, filter id > minId 并且 小于 maxId 的product
+        //?minId=XX&maxId=YY
+        [HttpGet("Filter")]
+        public IActionResult FilterProductById([FromQuery] int minId, [FromQuery] int maxId)
+        {
+            //LINQ
+            List<PaintProduct> filteredProducts = PaintProducts.Where(p => p.Id > minId && p.Id < maxId).ToList();
+            return Ok(filteredProducts);
         }
     }
 }
