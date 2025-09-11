@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace PMS.API;
 
 public class Program
@@ -12,6 +14,14 @@ public class Program
         builder.Services.AddControllers();
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddSwaggerGen();
+
+        builder.Services.AddDbContext<PMSDbContext>(
+            options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
+        );
+
+        // builder.Services.AddDbContext<PMSDbContext>(
+        //     options => options.UseNpgsql(builder.Configuration.GetConnectionString("PMS-PostgreSQL"))
+        // );
 
         var app = builder.Build();
 

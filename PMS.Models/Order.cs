@@ -4,7 +4,9 @@ namespace PMS.Models;
 
 public class Order
 {
-    public int OrderId { get; set; }
+    //Convention based 约定驱动
+    //PK
+    public int OrderId { get; set; } //classname+Id
 
     public List<PaintProduct> PaintProducts { get; set; }
 
