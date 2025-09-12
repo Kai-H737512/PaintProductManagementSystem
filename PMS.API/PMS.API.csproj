@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PMS.Models\PMS.Models.csproj" />
+    <ProjectReference Include="..\PMS.Services\PMS.Services.csproj" />
   </ItemGroup>
 
 </Project>

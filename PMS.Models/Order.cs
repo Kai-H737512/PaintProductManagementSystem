@@ -10,9 +10,8 @@ public class Order
 
     public List<PaintProduct> PaintProducts { get; set; }
 
-    public Order(int orderId)
+    public Order()
     {
-        OrderId = orderId;
         PaintProducts = new List<PaintProduct>();
     }
 }

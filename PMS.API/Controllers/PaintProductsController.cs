@@ -1,6 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PMS.Models;
 
 namespace PMS.API.Controllers
@@ -34,6 +35,13 @@ namespace PMS.API.Controllers
         public IActionResult GetProductById(int productId)
         {
             var paintProduct = _dbContext.PaintProducts.FirstOrDefault(p => p.Id == productId);
+            return Ok(paintProduct);
+        }
+
+         [HttpGet("{productId}/get-product-with-orders")]
+        public IActionResult GetProductWithOrderById(int productId)
+        {
+            var paintProduct = _dbContext.PaintProducts.Include(p=>p.Orders).FirstOrDefault(p => p.Id == productId);
             return Ok(paintProduct);
         }
 
