@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "RJdE1h3O9wI=",
-  "success": true,
+  "dgSpecHash": "L4jNR5PhzP0=",
+  "success": false,
   "projectFilePath": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuyan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -20,23 +20,29 @@
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.8\\microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.8\\microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.8\\microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.9\\microsoft.entityframeworkcore.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.9\\microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.9\\microsoft.entityframeworkcore.analyzers.9.0.9.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.8\\microsoft.entityframeworkcore.design.9.0.8.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.8\\microsoft.entityframeworkcore.relational.9.0.8.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.8\\microsoft.entityframeworkcore.sqlserver.9.0.8.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.8\\microsoft.extensions.caching.abstractions.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.8\\microsoft.extensions.caching.memory.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.8\\microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.8\\microsoft.extensions.dependencyinjection.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.9\\microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.9\\microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.9\\microsoft.extensions.configuration.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.9\\microsoft.extensions.configuration.fileextensions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.9\\microsoft.extensions.configuration.json.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.8\\microsoft.extensions.dependencymodel.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.logging\\9.0.8\\microsoft.extensions.logging.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.8\\microsoft.extensions.logging.abstractions.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.options\\9.0.8\\microsoft.extensions.options.9.0.8.nupkg.sha512",
-    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.9\\microsoft.extensions.fileproviders.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.9\\microsoft.extensions.fileproviders.physical.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.9\\microsoft.extensions.filesystemglobbing.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.logging\\9.0.9\\microsoft.extensions.logging.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.9\\microsoft.extensions.logging.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.options\\9.0.9\\microsoft.extensions.options.9.0.9.nupkg.sha512",
+    "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.61.3\\microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
@@ -92,5 +98,17 @@
     "C:\\Users\\yuyan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\yuyan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 9.0.9 to 9.0.8. Reference the package directly from the project to select a different version. \r\n PMS.API -> PMS.Services -> PMS.Respositories -> PMS.DataAccess -> Microsoft.EntityFrameworkCore.SqlServer (>= 9.0.9) \r\n PMS.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 9.0.8)",
+      "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+      "filePath": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

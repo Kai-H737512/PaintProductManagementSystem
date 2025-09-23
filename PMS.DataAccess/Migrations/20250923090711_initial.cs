@@ -1,26 +1,42 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace PMS.API.Migrations
+namespace PMS.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class add_orders_paintproducts_many_many : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_PaintProducts_Orders_OrderId",
-                table: "PaintProducts");
+            migrationBuilder.CreateTable(
+                name: "Orders",
+                columns: table => new
+                {
+                    OrderId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Orders", x => x.OrderId);
+                });
 
-            migrationBuilder.DropIndex(
-                name: "IX_PaintProducts_OrderId",
-                table: "PaintProducts");
-
-            migrationBuilder.DropColumn(
-                name: "OrderId",
-                table: "PaintProducts");
+            migrationBuilder.CreateTable(
+                name: "PaintProducts",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PaintProductName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    DuluxId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PaintProducts", x => x.Id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "OrderPaintProduct",
@@ -58,25 +74,11 @@ namespace PMS.API.Migrations
             migrationBuilder.DropTable(
                 name: "OrderPaintProduct");
 
-            migrationBuilder.AddColumn<int>(
-                name: "OrderId",
-                table: "PaintProducts",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+            migrationBuilder.DropTable(
+                name: "Orders");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_PaintProducts_OrderId",
-                table: "PaintProducts",
-                column: "OrderId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_PaintProducts_Orders_OrderId",
-                table: "PaintProducts",
-                column: "OrderId",
-                principalTable: "Orders",
-                principalColumn: "OrderId",
-                onDelete: ReferentialAction.Cascade);
+            migrationBuilder.DropTable(
+                name: "PaintProducts");
         }
     }
 }

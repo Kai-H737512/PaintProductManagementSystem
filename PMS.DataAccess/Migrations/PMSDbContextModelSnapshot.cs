@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PMS.API;
+using PMS.DataAccess;
 
 #nullable disable
 
-namespace PMS.API.Migrations
+namespace PMS.DataAccess.Migrations
 {
     [DbContext(typeof(PMSDbContext))]
     partial class PMSDbContextModelSnapshot : ModelSnapshot
@@ -17,7 +17,7 @@ namespace PMS.API.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.8")
+                .HasAnnotation("ProductVersion", "9.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -60,7 +60,8 @@ namespace PMS.API.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<Guid>("DuluxId")
                         .HasColumnType("uniqueidentifier");
