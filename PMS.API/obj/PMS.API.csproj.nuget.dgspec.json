@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {}
+    "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {
+    "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
         "projectName": "PMS.API",
-        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
+        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.API\\PMS.API.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.API\\obj\\",
+        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
-                "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
+              "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+                "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
               },
-              "C:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj": {
-                "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj"
+              "c:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj": {
+                "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj"
               }
             }
           }
@@ -57,6 +57,18 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
@@ -64,10 +76,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.8, )"
             },
@@ -131,8 +139,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
-                "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
+              "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+                "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj"
               }
             }
           }
@@ -200,14 +208,14 @@
         }
       }
     },
-    "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+    "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "projectName": "PMS.Models",
-        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
+        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -265,14 +273,14 @@
         }
       }
     },
-    "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj": {
+    "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj",
+        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj",
         "projectName": "PMS.Respositories",
-        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj",
+        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\obj\\",
+        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -334,14 +342,14 @@
         }
       }
     },
-    "C:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj": {
+    "c:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj",
+        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj",
         "projectName": "PMS.Services",
-        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj",
+        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Services\\PMS.Services.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.Services\\obj\\",
+        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -362,8 +370,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj": {
-                "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj"
+              "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj": {
+                "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Respositories\\PMS.Respositories.csproj"
               }
             }
           }

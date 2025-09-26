@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {}
+    "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
+    "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectUniqueName": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "projectName": "PMS.Models",
-        "projectPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
+        "projectPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
         "packagesPath": "C:\\Users\\yuyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
+        "outputPath": "c:\\Users\\yuyan\\wk3\\PMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

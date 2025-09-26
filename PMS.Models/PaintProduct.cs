@@ -19,17 +19,15 @@ public class PaintProduct
     public string Description { get; set; }
     public Guid DuluxId { get; set; }
 
+    public decimal Price { get; set; }
+
     //EF 
     //Navigation Property
     // [JsonIgnore]
     public List<Order> Orders { get; set; }
 
-    public PaintProduct(int id, string paintProductName, string description, Guid duluxId)
+    public PaintProduct()
     {
-        Id = id;
-        PaintProductName = paintProductName;
-        Description = description;
-        DuluxId = duluxId;
         Orders = new List<Order>();
     }
 }

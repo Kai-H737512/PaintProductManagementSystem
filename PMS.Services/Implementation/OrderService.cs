@@ -1,16 +1,17 @@
 using System;
 using PMS.Models;
 using PMS.Respositories;
+using PMS.Respositories.Interfaces;
 using PMS.Services.Interfaces;
 
 namespace PMS.Services;
 
 public class OrderService: IOrderService
 {
-    private OrderRepository _orderRepository;
-    private PaintProductRepository _paintProductRepository;
+    private IOrderRepository _orderRepository;
+    private IPaintProductRepository _paintProductRepository;
 
-    public OrderService(OrderRepository orderRepository, PaintProductRepository paintProductRepository)
+    public OrderService(IOrderRepository orderRepository, IPaintProductRepository paintProductRepository)
     {
         _orderRepository = orderRepository;
         _paintProductRepository = paintProductRepository;
@@ -22,7 +23,7 @@ public class OrderService: IOrderService
 
         if (order == null)
         {
-            throw new Exception($"Order: {orderId} is not found");
+            throw new KeyNotFoundException($"Order: {orderId} is not found");
         }
         
         return order;

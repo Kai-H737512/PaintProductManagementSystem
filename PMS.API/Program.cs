@@ -1,5 +1,10 @@
 
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using PMS.API.DTOs;
+using PMS.API.Exceptions;
+using PMS.API.Validators;
 using PMS.DataAccess;
 using PMS.Respositories;
 using PMS.Respositories.Interfaces;
@@ -24,19 +29,39 @@ public class Program
             options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
         );
 
+   
+
         builder.Services.AddScoped<IOrderRepository, OrderRepository>();
         builder.Services.AddScoped<IPaintProductRepository, PaintProductRepository>();
 
-        builder.Services.AddScoped<PaintProductRepository>();
-
+        // builder.Services.AddScoped<PaintProductRepository>();
         builder.Services.AddScoped<IOrderService, OrderService>();
         builder.Services.AddScoped<IPaintProductService, PaintProductService>();
+
+        // builder.Services.AddScoped<IValidator<CreatePaintProductRequest>, CreatePaintProductRequestValidator>();
+        builder.Services.AddValidatorsFromAssemblyContaining<CreatePaintProductRequestValidator>();
+        builder.Services.AddFluentValidationAutoValidation();
+        builder.Services.AddSingleton<GlobalExceptionHandler>();
+
+        builder.Services.AddAutoMapper(cfg => { }, typeof(Program));
 
         // builder.Services.AddDbContext<PMSDbContext>(
         //     options => options.UseNpgsql(builder.Configuration.GetConnectionString("PMS-PostgreSQL"))
         // );
 
         var app = builder.Build();
+
+        app.UseExceptionHandler(
+            errorApp =>
+            {
+                errorApp.Run(async context =>
+                {
+                    var exceptionHandler = context.RequestServices.GetRequiredService<GlobalExceptionHandler>();
+                    await exceptionHandler.HandleException(context);
+                }
+                );
+            }
+        );
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
