@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dFd9YezK0Yc=",
+  "success": true,
+  "projectFilePath": "/Users/hoiwong/Documents/自学/后端/dotNet/week3/PMS/PMS.API/PMS.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/hoiwong/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "/Users/hoiwong/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
