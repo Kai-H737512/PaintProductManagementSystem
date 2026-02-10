@@ -1,6 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PMS.Models;
 
 namespace PMS.API.Controllers
@@ -9,23 +10,23 @@ namespace PMS.API.Controllers
     [ApiController]
     public class PaintProductsController : ControllerBase
     {
-        private readonly List<PaintProduct> PaintProducts;
-
-        public PaintProductsController()
+        private PMSDbContext _dbContext;
+        public PaintProductsController(PMSDbContext dbContext)
         {
-            PaintProducts = new List<PaintProduct>();
+            _dbContext = dbContext;
         }
 
         [HttpGet]
         public IActionResult GetPaintProducts()
         {
-            return Ok(PaintProducts);
+            List<PaintProduct> paintProducts = _dbContext.PaintProducts.ToList();
+            return Ok(paintProducts);
         }
 
         [HttpGet("first")]
         public IActionResult GetFirstPaintProduct()
         {
-            return Ok(PaintProducts.FirstOrDefault());
+            return Ok(_dbContext.PaintProducts.FirstOrDefault());
         }
 
         //新增一个endpoint, 返回 paintProducts中 匹配传入的id === productId 的product
@@ -33,21 +34,21 @@ namespace PMS.API.Controllers
         [HttpGet("{productId}")]
         public IActionResult GetProductById(int productId)
         {
-            var paintProduct = PaintProducts.FirstOrDefault(p => p.Id == productId);
+            var paintProduct = _dbContext.PaintProducts.FirstOrDefault(p => p.Id == productId);
             return Ok(paintProduct);
         }
 
         [HttpDelete("{productId}")]
         public IActionResult DeleteProductById(int productId)
         {
-            var paintProduct = PaintProducts.FirstOrDefault(p => p.Id == productId);
+            var paintProduct = _dbContext.PaintProducts.FirstOrDefault(p => p.Id == productId);
             return Ok(paintProduct);
         }
 
         [HttpPut("{productId}")]
         public IActionResult UpdateProductById(int productId)
         {
-            var paintProduct = PaintProducts.FirstOrDefault(p => p.Id == productId);
+            var paintProduct = _dbContext.PaintProducts.FirstOrDefault(p => p.Id == productId);
             return Ok(paintProduct);
         }
 
@@ -56,7 +57,9 @@ namespace PMS.API.Controllers
         [HttpPost]
         public IActionResult CreatePaintProduct([FromBody] PaintProduct paintProduct) //Model binding, 模型绑定， parameter, map from incoming http request body
         {
-            PaintProducts.Add(paintProduct);
+            Console.WriteLine(">>> HIT CreatePaintProduct <<<");
+            _dbContext.PaintProducts.Add(paintProduct);
+            _dbContext.SaveChanges();
             // return StatusCode((int)HttpStatusCode.Created);
             // return StatusCode(201);
             // return Created($"/api/PaintProducts/{paintProduct.Id}", paintProduct);
@@ -69,7 +72,7 @@ namespace PMS.API.Controllers
         public IActionResult FilterProductById([FromQuery] int minId, [FromQuery] int maxId)
         {
             //LINQ
-            List<PaintProduct> filteredProducts = PaintProducts.Where(p => p.Id > minId && p.Id < maxId).ToList();
+            List<PaintProduct> filteredProducts = _dbContext. PaintProducts.Where(p => p.Id > minId && p.Id < maxId).ToList();
             return Ok(filteredProducts);
         }
     }

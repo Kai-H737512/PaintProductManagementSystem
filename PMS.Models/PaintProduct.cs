@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PMS.Models;
 
@@ -18,11 +19,17 @@ public class PaintProduct
     public string Description { get; set; }
     public Guid DuluxId { get; set; }
 
+    // EF
+    // Navigation Property
+    [JsonIgnore]
+    public List<Order> Orders { get; set; }
+
     public PaintProduct(int id, string paintProductName, string description, Guid duluxId)
     {
         Id = id;
         PaintProductName = paintProductName;
         Description = description;
         DuluxId = duluxId;
+        Orders = new List<Order>();
     }
 }

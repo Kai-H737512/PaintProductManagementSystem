@@ -1,172 +1,343 @@
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\appsettings.Development.json
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\appsettings.json
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.staticwebassets.endpoints.json
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.exe
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.deps.json
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.runtimeconfig.json
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.API.pdb
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.csproj.AssemblyReference.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\rpswa.dswa.cache.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.AssemblyInfoInputs.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.AssemblyInfo.cs
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.csproj.CoreCompileInputs.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.MvcApplicationPartsAssemblyInfo.cs
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.MvcApplicationPartsAssemblyInfo.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\scopedcss\bundle\PMS.API.styles.css
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\staticwebassets.build.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\staticwebassets.build.json.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\staticwebassets.development.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.csproj.Up2Date
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.dll
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\refint\PMS.API.dll
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.pdb
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.genruntimeconfig.cache
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\ref\PMS.API.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.Models.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\PMS.Models.pdb
-c:\Users\yuyan\wk3\PMS.API\obj\Debug\net9.0\PMS.API.sourcelink.json
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Humanizer.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Npgsql.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Text.Json.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-c:\Users\yuyan\wk3\PMS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/appsettings.Development.json
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/appsettings.json
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.staticwebassets.endpoints.json
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.exe
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.deps.json
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.runtimeconfig.json
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.API.pdb
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.OpenApi.dll
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.csproj.AssemblyReference.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.GeneratedMSBuildEditorConfig.editorconfig
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.AssemblyInfoInputs.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.AssemblyInfo.cs
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.csproj.CoreCompileInputs.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.MvcApplicationPartsAssemblyInfo.cs
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.MvcApplicationPartsAssemblyInfo.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/rjimswa.dswa.cache.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/scopedcss/bundle/PMS.API.styles.css
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/staticwebassets.build.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/staticwebassets.build.json.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/staticwebassets.development.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.csproj.Up2Date
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.dll
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/refint/PMS.API.dll
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.pdb
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.genruntimeconfig.cache
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/ref/PMS.API.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.Models.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/PMS.Models.pdb
+c:/Users/yuyan/wk3/PMS.API/obj/Debug/net9.0/PMS.API.sourcelink.json
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Azure.Core.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Azure.Identity.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Humanizer.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Npgsql.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.ClientModel.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Drawing.Common.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Formats.Asn1.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Memory.Data.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Runtime.Caching.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Security.Permissions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Text.Json.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/System.Windows.Extensions.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/appsettings.Development.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/appsettings.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API.staticwebassets.endpoints.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API.deps.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API.runtimeconfig.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.API.pdb
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Azure.Core.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Azure.Identity.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Humanizer.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Npgsql.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.ClientModel.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.CodeDom.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Models.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Models.pdb
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.csproj.AssemblyReference.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.AssemblyInfoInputs.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.AssemblyInfo.cs
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.csproj.CoreCompileInputs.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.sourcelink.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/scopedcss/bundle/PMS.API.styles.css
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/staticwebassets.build.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/staticwebassets.development.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/swae.build.ex.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.csproj.Up2Date
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/refint/PMS.API.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.pdb
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.genruntimeconfig.cache
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/ref/PMS.API.dll

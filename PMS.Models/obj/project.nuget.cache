@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fjH4Xna//eE=",
+  "dgSpecHash": "nepo03sMJ2w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yuyan\\wk3\\PMS.Models\\PMS.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.Models/PMS.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/hoiwong/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/hoiwong/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
