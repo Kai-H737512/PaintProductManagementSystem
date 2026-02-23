@@ -21,10 +21,11 @@ public class PaintProduct
 
     // EF
     // Navigation Property
-    public List<Order> Orders { get; set; }
+    // Navigation Property
+    public List<OrderPaintProduct> OrderPaintProducts { get; set; }
     public PaintProduct()
     {
-        Orders = new List<Order>();
+        OrderPaintProducts = new List<OrderPaintProduct>();
     }
     public PaintProduct(int id, string paintProductName, string description, Guid duluxId)
     {
@@ -32,6 +33,6 @@ public class PaintProduct
         PaintProductName = paintProductName;
         Description = description;
         DuluxId = duluxId;
-        Orders = new List<Order>();
+        OrderPaintProducts = new List<OrderPaintProduct>();
     }
 }

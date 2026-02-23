@@ -39,7 +39,11 @@ namespace PMS.API.Controllers
         [HttpGet("{orderId}/get-order-with-products")]
         public IActionResult GetOrderWithProducts(int orderId)
         {
-            var order = _dbContext.Orders.Include(o=>o.PaintProducts).FirstOrDefault(o => o.OrderId == orderId);
+            var order = _dbContext.Orders
+                .Include(o => o.OrderPaintProducts)
+                .ThenInclude(op => op.PaintProduct)
+                .FirstOrDefault(o => o.OrderId == orderId);
+
             if (order == null)
             {
                 return NotFound("Order not found.");
@@ -78,7 +82,13 @@ namespace PMS.API.Controllers
                     continue;
                 }
 
-                order.PaintProducts.Add(product);
+                // Use the new junction table class to attach the product with a Quantity
+                order.OrderPaintProducts.Add(new OrderPaintProduct 
+                { 
+                    OrderId = orderId, 
+                    PaintProductId = product.Id, 
+                    Quantity = 1 // default to 1, or handle it via a DTO that supports quantities
+                });
             }
 
             _dbContext.SaveChanges();

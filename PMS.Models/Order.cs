@@ -5,12 +5,15 @@ namespace PMS.Models;
 public class Order
 {
     public int OrderId { get; set; }
+    public int UserId { get; set; }
+    public User User { get; set; } = null!; // added User reference
+    public DateTime CreatedAt { get; set; }
 
-    public List<PaintProduct> PaintProducts { get; set; }
+    public List<OrderPaintProduct> OrderPaintProducts { get; set; } = new List<OrderPaintProduct>();
+    
 
     public Order()
     {
-        // OrderId = orderId;
-        PaintProducts = new List<PaintProduct>();
+        OrderPaintProducts = new List<OrderPaintProduct>();
     }
 }

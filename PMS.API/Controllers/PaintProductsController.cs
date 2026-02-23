@@ -79,7 +79,10 @@ namespace PMS.API.Controllers
         [HttpGet("{productId}/get-paintproduct-with-order")]
         public IActionResult GetProductWithOrder(int productId)        
         {
-            var paintProduct = _dbContext.PaintProducts.Include(p=>p.Orders).FirstOrDefault(p => p.Id == productId);
+            var paintProduct = _dbContext.PaintProducts
+                .Include(p => p.OrderPaintProducts)
+                .ThenInclude(op => op.Order)
+                .FirstOrDefault(p => p.Id == productId);
             if (paintProduct == null)
             {
                 return NotFound($"Product {productId} not found");
