@@ -21,9 +21,11 @@ public class PaintProduct
 
     // EF
     // Navigation Property
-    [JsonIgnore]
     public List<Order> Orders { get; set; }
-
+    public PaintProduct()
+    {
+        Orders = new List<Order>();
+    }
     public PaintProduct(int id, string paintProductName, string description, Guid duluxId)
     {
         Id = id;

@@ -75,5 +75,16 @@ namespace PMS.API.Controllers
             List<PaintProduct> filteredProducts = _dbContext. PaintProducts.Where(p => p.Id > minId && p.Id < maxId).ToList();
             return Ok(filteredProducts);
         }
+
+        [HttpGet("{productId}/get-paintproduct-with-order")]
+        public IActionResult GetProductWithOrder(int productId)        
+        {
+            var paintProduct = _dbContext.PaintProducts.Include(p=>p.Orders).FirstOrDefault(p => p.Id == productId);
+            if (paintProduct == null)
+            {
+                return NotFound($"Product {productId} not found");
+            }
+            return Ok(paintProduct);
+        }
     }
 }

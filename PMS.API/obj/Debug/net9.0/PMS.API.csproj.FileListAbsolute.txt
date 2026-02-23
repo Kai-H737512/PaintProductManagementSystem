@@ -341,3 +341,9 @@ c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.pdb
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/PMS.API.genruntimeconfig.cache
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/ref/PMS.API.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.DataAccess.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Repositories.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Services.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Services.pdb
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.DataAccess.pdb
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/PMS.Repositories.pdb

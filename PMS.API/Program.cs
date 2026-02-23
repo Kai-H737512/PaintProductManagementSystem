@@ -2,6 +2,7 @@
 namespace PMS.API;
 
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 public class Program
 {
@@ -20,12 +21,20 @@ public class Program
             options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"));
         });
 
+        builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
         // builder.Services.AddDbContext<PMSDbContext>(options =>
         // {
         //     options.UseNpgsql(builder.Configuration.GetConnectionString("PMS-PostgresSQL"));
         // });
 
         var app = builder.Build();
+
+        using (var scope = app.Services.CreateScope())
+        {
+            var content = scope.ServiceProvider.GetRequiredService<PMSDbContext>();
+            content.Database.Migrate();
+        }
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
@@ -37,7 +46,6 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 

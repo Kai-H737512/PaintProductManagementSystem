@@ -1736,6 +1736,19 @@
           }
         }
       },
+      "PMS.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "PMS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PMS.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.DataAccess.dll": {}
+        }
+      },
       "PMS.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1744,6 +1757,32 @@
         },
         "runtime": {
           "bin/placeholder/PMS.Models.dll": {}
+        }
+      },
+      "PMS.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "PMS.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PMS.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Repositories.dll": {}
+        }
+      },
+      "PMS.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "PMS.Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PMS.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Services.dll": {}
         }
       }
     }
@@ -5212,10 +5251,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PMS.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../PMS.DataAccess/PMS.DataAccess.csproj",
+      "msbuildProject": "../PMS.DataAccess/PMS.DataAccess.csproj"
+    },
     "PMS.Models/1.0.0": {
       "type": "project",
       "path": "../PMS.Models/PMS.Models.csproj",
       "msbuildProject": "../PMS.Models/PMS.Models.csproj"
+    },
+    "PMS.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../PMS.Repositories/PMS.Repositories.csproj",
+      "msbuildProject": "../PMS.Repositories/PMS.Repositories.csproj"
+    },
+    "PMS.Services/1.0.0": {
+      "type": "project",
+      "path": "../PMS.Services/PMS.Services.csproj",
+      "msbuildProject": "../PMS.Services/PMS.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5225,6 +5279,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
       "PMS.Models >= 1.0.0",
+      "PMS.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 9.0.4"
     ]
   },
@@ -5255,6 +5310,9 @@
           "projectReferences": {
             "/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.Models/PMS.Models.csproj": {
               "projectPath": "/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.Models/PMS.Models.csproj"
+            },
+            "/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.Services/PMS.Services.csproj": {
+              "projectPath": "/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.Services/PMS.Services.csproj"
             }
           }
         }

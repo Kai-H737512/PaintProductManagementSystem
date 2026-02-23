@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "PMS.Models": "1.0.0",
+          "PMS.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.4"
         },
         "runtime": {
@@ -977,9 +978,42 @@
           }
         }
       },
+      "PMS.DataAccess/1.0.0": {
+        "dependencies": {
+          "PMS.Models": "1.0.0"
+        },
+        "runtime": {
+          "PMS.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PMS.Models/1.0.0": {
         "runtime": {
           "PMS.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PMS.Repositories/1.0.0": {
+        "dependencies": {
+          "PMS.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "PMS.Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PMS.Services/1.0.0": {
+        "dependencies": {
+          "PMS.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "PMS.Services.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1427,7 +1461,22 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "PMS.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PMS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PMS.API;
 
@@ -11,9 +12,11 @@ using PMS.API;
 namespace PMS.API.Migrations
 {
     [DbContext(typeof(PMSDbContext))]
-    partial class PMSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260223032226_AddProductData")]
+    partial class AddProductData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -84,14 +87,14 @@ namespace PMS.API.Migrations
                         {
                             Id = 1,
                             Description = "This is product 1",
-                            DuluxId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            DuluxId = new Guid("750a5333-344e-41f9-aacb-07f2bc0c24e7"),
                             PaintProductName = "Product 1"
                         },
                         new
                         {
                             Id = 2,
                             Description = "This is product 2",
-                            DuluxId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            DuluxId = new Guid("5d613d58-23e2-45ec-a906-89465f224d2a"),
                             PaintProductName = "Product 2"
                         });
                 });
