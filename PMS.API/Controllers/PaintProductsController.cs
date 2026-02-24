@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PMS.Models;
+using PMS.Services;
 
 namespace PMS.API.Controllers
 {
@@ -10,10 +11,10 @@ namespace PMS.API.Controllers
     [ApiController]
     public class PaintProductsController : ControllerBase
     {
-        private PMSDbContext _dbContext;
-        public PaintProductsController(PMSDbContext dbContext)
+        private PaintProductService _paintProductService;
+        public PaintProductsController(PaintProductService paintProductService)
         {
-            _dbContext = dbContext;
+            _paintProductService = paintProductService;
         }
 
         [HttpGet]

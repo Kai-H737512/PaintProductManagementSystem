@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PMS.API.DTOs;
 using PMS.Models;
+using PMS.Services;
+
 
 namespace PMS.API.Controllers
 {
@@ -10,29 +12,23 @@ namespace PMS.API.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private PMSDbContext _dbContext;
-        public OrdersController(PMSDbContext dbContext)
+        private OrderService _orderService;
+        public OrdersController(OrderService orderService)
         {
-            _dbContext = dbContext;
+            _orderService = orderService;
         }
 
         [HttpGet("PaginatedOrders")]
         public IActionResult GetPaginatedOrders([FromQuery] int pageNumber, [FromQuery] int pageSize)
         {
-            List<Order> filteredOrders = _dbContext.Orders.OrderBy(o => o.OrderId).Skip((pageNumber - 1) * pageSize)
-            .Take(pageSize).ToList();
-            return Ok(filteredOrders);
+            var orders = _orderService.GetPaginatedOrders(pageNumber, pageSize);
+            return Ok(orders);
         }
 
         [HttpGet("{orderId}")]
         public IActionResult GetOrderById(int orderId)
         {
-            var order = _dbContext.Orders.FirstOrDefault(o => o.OrderId == orderId);
-            if (order == null)
-            {
-                return NotFound();
-            }
-
+            var order = _orderService.GetOrderById(orderId);
             return Ok(order);
         }
 

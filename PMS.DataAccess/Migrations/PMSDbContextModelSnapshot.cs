@@ -3,20 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PMS.API;
+using PMS.DataAcces;
 
 #nullable disable
 
-namespace PMS.API.Migrations
+namespace PMS.DataAccess.Migrations
 {
     [DbContext(typeof(PMSDbContext))]
-    [Migration("20250909104244_add_orders_paintproducts_many_many")]
-    partial class add_orders_paintproducts_many_many
+    partial class PMSDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,7 +60,8 @@ namespace PMS.API.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<Guid>("DuluxId")
                         .HasColumnType("uniqueidentifier");

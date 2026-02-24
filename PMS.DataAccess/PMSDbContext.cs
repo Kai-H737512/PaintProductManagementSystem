@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using PMS.Models;
 
-namespace PMS.API;
+namespace PMS.DataAccess;
 
 public class PMSDbContext : DbContext
 {

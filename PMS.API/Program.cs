@@ -1,5 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
+using PMS.DataAccess;
+using PMS.Repositories;
+using PMS.Services;
 
 namespace PMS.API;
 
@@ -18,6 +21,12 @@ public class Program
         builder.Services.AddDbContext<PMSDbContext>(
             options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
         );
+
+        builder.Services.AddScoped<OrderRepository>();
+        builder.Services.AddScoped<PaintProductRepository>();
+        
+        builder.Services.AddScoped<OrderService>();
+        builder.Services.AddScoped<PaintProductService>();
 
         // builder.Services.AddDbContext<PMSDbContext>(
         //     options => options.UseNpgsql(builder.Configuration.GetConnectionString("PMS-PostgreSQL"))
