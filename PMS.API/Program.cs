@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using PMS.API.Exceptions;
 using PMS.DataAccess;
 using PMS.Respositories;
 using PMS.Respositories.Interfaces;
@@ -32,11 +33,24 @@ public class Program
         builder.Services.AddScoped<IOrderService, OrderService>();
         builder.Services.AddScoped<IPaintProductService, PaintProductService>();
 
+        builder.Services.AddSingleton<GlobalExceptionHandler>();
+
         // builder.Services.AddDbContext<PMSDbContext>(
         //     options => options.UseNpgsql(builder.Configuration.GetConnectionString("PMS-PostgreSQL"))
         // );
 
         var app = builder.Build();
+
+        app.UseExceptionHandler(
+            errorApp =>
+            {
+                errorApp.Run(async context =>
+                {
+                    var exceptionHandler = context.RequestServices.GetRequiredService<GlobalExceptionHandler>();
+                    await exceptionHandler.HandleException(context);
+                });
+            }
+        );
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
