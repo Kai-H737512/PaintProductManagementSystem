@@ -355,3 +355,6 @@ c:/Users/yuyan/wk3/PMS.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/obj/Debug/net9.0/ref/PMS.API.dll
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/AutoMapper.dll
 /Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/FluentValidation.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/Users/hoiwong/Documents/Distinction Coding/后端/wk4/inclassrepo-webapi-intro/PMS.API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll

@@ -9,6 +9,10 @@ using PMS.Services.Interfaces;
 using AutoMapper;
 using PMS.API.Mapping;
 using Microsoft.Extensions.DependencyInjection;
+using FluentValidation;
+using PMS.API.DTOs;
+using PMS.API.Validators;
+using FluentValidation.AspNetCore;
 
 namespace PMS.API;
 
@@ -38,6 +42,11 @@ public class Program
 
         builder.Services.AddScoped<IOrderService, OrderService>();
         builder.Services.AddScoped<IPaintProductService, PaintProductService>();
+
+        // FluentValidators
+        builder.Services.AddValidatorsFromAssemblyContaining<CreatePaintProductRequestValidator>();
+        builder.Services.AddFluentValidationAutoValidation();
+        // builder.Services.AddScoped<IValidator<CreatePaintProductRequest>, CreatePaintProductRequestValidator>();
 
         builder.Services.AddSingleton<GlobalExceptionHandler>();
 
