@@ -24,9 +24,12 @@ public class PaintProduct
     // [JsonIgnore]
     public List<Order> Orders { get; set; }
 
-    public PaintProduct(int id, string paintProductName, string description, Guid duluxId)
+    public PaintProduct()
     {
-        Id = id;
+        Orders = new List<Order>();
+    }
+    public PaintProduct(string paintProductName, string description, Guid duluxId)
+    {
         PaintProductName = paintProductName;
         Description = description;
         DuluxId = duluxId;

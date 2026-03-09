@@ -15,13 +15,11 @@ public class GlobalExceptionHandler
         var exception = exceptionHandlerFeature.Error;
 
         httpContext.Response.ContentType = "application/json";
-        httpContext.Response.StatusCode = GetStatusCode(exception);
 
-        var errorResponse = new
-        {
-            Message = exception.Message,
-            Type = exception.GetType().Name
-        };
+        var statusCode = GetStatusCode(exception);
+        httpContext.Response.StatusCode = statusCode;
+
+        var errorResponse = new ErrorResponse(statusCode, exception.Message, exception.GetType().Name);
 
         await httpContext.Response.WriteAsJsonAsync(JsonSerializer.Serialize(errorResponse));
     }

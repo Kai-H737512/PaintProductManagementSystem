@@ -6,6 +6,9 @@ using PMS.Respositories;
 using PMS.Respositories.Interfaces;
 using PMS.Services;
 using PMS.Services.Interfaces;
+using AutoMapper;
+using PMS.API.Mapping;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace PMS.API;
 
@@ -24,6 +27,9 @@ public class Program
         builder.Services.AddDbContext<PMSDbContext>(
             options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
         );
+
+        builder.Services.AddAutoMapper(cfg => {}, typeof(Program));
+
 
         builder.Services.AddScoped<IOrderRepository, OrderRepository>();
         builder.Services.AddScoped<IPaintProductRepository, PaintProductRepository>();

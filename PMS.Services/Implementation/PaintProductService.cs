@@ -1,4 +1,5 @@
 using System;
+using PMS.Models;
 using PMS.Respositories;
 using PMS.Services.Interfaces;
 
@@ -11,5 +12,11 @@ public class PaintProductService: IPaintProductService
     public PaintProductService(PaintProductRepository paintProductRepository)
     {
         _paintProductRepository = paintProductRepository;
+    }
+
+    public PaintProduct CreatePaintProduct(PaintProduct paintProduct)
+    {
+        _paintProductRepository.CreatePaintProduct(paintProduct);
+        return paintProduct;
     }
 }
