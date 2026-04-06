@@ -1,5 +1,6 @@
 
 using FluentValidation;
+using Scalar.AspNetCore;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +18,7 @@ namespace PMS.API;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +26,13 @@ public class Program
 
         builder.Services.AddControllers();
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddOpenApi();
+
+        builder.Services.AddAuthorization(options =>
+        {
+            options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+            options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+        });
 
         builder.Services.AddDbContext<PMSDbContext>(
             options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
@@ -34,8 +41,6 @@ public class Program
         builder.Services.AddIdentity<Users, IdentityRole>()
             .AddEntityFrameworkStores<PMSDbContext>()
             .AddDefaultTokenProviders();
-
-
 
         builder.Services.AddScoped<IOrderRepository, OrderRepository>();
         builder.Services.AddScoped<IPaintProductRepository, PaintProductRepository>();
@@ -57,6 +62,17 @@ public class Program
 
         var app = builder.Build();
 
+        // Seed roles
+        using (var scope = app.Services.CreateScope())
+        {
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            foreach (var role in new[] { "Admin", "User" })
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                    await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+
         app.UseExceptionHandler(
             errorApp =>
             {
@@ -72,8 +88,8 @@ public class Program
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            app.MapOpenApi();
+            app.MapScalarApiReference();
         }
 
         app.UseHttpsRedirection();

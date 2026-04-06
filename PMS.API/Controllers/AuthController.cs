@@ -22,6 +22,7 @@ namespace PMS.API.Controllers
             _userManager = userManager;
         }
 
+        [HttpPost("signup")]
         public async Task<IActionResult> SignUp([FromBody] SignupRequestDto signupRequestDto)
         {
             // exist check
@@ -36,6 +37,7 @@ namespace PMS.API.Controllers
             {
                 UserName = signupRequestDto.UserName,
                 Email = signupRequestDto.Email,
+                Account = signupRequestDto.Account,
             };
             
             var createUserResult = await _userManager.CreateAsync(newUser, signupRequestDto.Password);
@@ -52,9 +54,8 @@ namespace PMS.API.Controllers
 
             // transactional operation: create user and assign role should be atomic, if any of them fails, the whole operation should be rolled back
             // but since we are using Identity framework, it will handle the transaction for us, if create user fails, it will not assign role, if assign role fails, it will not create user
-
-
-            return Ok();
+            var token = JWTGenerator(newUser);
+            return Ok(token);
         }
 
         private string JWTGenerator(Users user)
@@ -91,7 +92,5 @@ namespace PMS.API.Controllers
             // serilize the token to string
             return new JwtSecurityTokenHandler().WriteToken(token); 
         }
-        public AuthController(JWTGenerator jwtGenerator)
-
     }
 }
