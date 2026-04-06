@@ -22,6 +22,25 @@ namespace PMS.API.Controllers
             _userManager = userManager;
         }
 
+        [HttpPost("signin")]
+        public async Task<IActionResult> SignIn([FromBody] SigninRequestDto signinRequestDto)
+        {
+            var user = await _userManager.FindByNameAsync(signinRequestDto.UserName);
+            if (user == null)
+            {
+                return Unauthorized("Invalid username or password.");
+            }
+
+            var isPasswordValid = await _userManager.CheckPasswordAsync(user, signinRequestDto.Password);
+            if (!isPasswordValid)
+            {
+                return Unauthorized("Invalid username or password.");
+            }
+
+            var token = JWTGenerator(user);
+            return Ok(token);
+        }
+
         [HttpPost("signup")]
         public async Task<IActionResult> SignUp([FromBody] SignupRequestDto signupRequestDto)
         {
