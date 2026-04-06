@@ -5,5 +5,5 @@ namespace PMS.Services.Interfaces;
 
 public interface IPaintProductService
 {
-    PaintProduct CreatePaintProduct(PaintProduct paintProduct);
+    PaintProduct CreatePaintProductAsync(PaintProduct paintProduct);
 }

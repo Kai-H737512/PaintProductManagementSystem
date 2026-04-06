@@ -1,4 +1,5 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 using PMS.DataAccess;
 using PMS.Models;
 using PMS.Respositories.Interfaces;
@@ -14,15 +15,16 @@ public class OrderRepository: IOrderRepository
         _dbContext = dbContext;
     }
 
-    public Order? GetOrderById(int orderId)
+    public async Task<Order?> GetOrderByIdAsync(int orderId)
     {
-        return _dbContext.Orders.Find(orderId);
+        var order = await _dbContext.Orders.FindAsync (orderId);
+        return order;
     }
 
-    public List<Order> GetPaginatedOrders(int pageNumber, int pageSize)
+    public async Task<List<Order>> GetPaginatedOrdersAsync(int pageNumber, int pageSize)
     {
-        var filteredOrders = _dbContext.Orders.OrderBy(o => o.OrderId).Skip((pageNumber - 1) * pageSize)
-             .Take(pageSize).ToList();
+        var filteredOrders = await _dbContext.Orders.OrderBy(o => o.OrderId).Skip((pageNumber - 1) * pageSize)
+             .Take(pageSize).ToListAsync();
         return filteredOrders;
     }
 }

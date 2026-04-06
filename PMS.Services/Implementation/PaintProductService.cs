@@ -15,7 +15,7 @@ public class PaintProductService: IPaintProductService
         _paintProductRepository = paintProductRepository;
     }
 
-    public PaintProduct CreatePaintProduct(PaintProduct paintProduct)
+    public PaintProduct CreatePaintProductAsync(PaintProduct paintProduct)
     {
         throw new NotImplementedException();
     }

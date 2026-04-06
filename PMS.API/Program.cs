@@ -1,11 +1,13 @@
 
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PMS.API.DTOs;
 using PMS.API.Exceptions;
 using PMS.API.Validators;
 using PMS.DataAccess;
+using PMS.Models;
 using PMS.Respositories;
 using PMS.Respositories.Interfaces;
 using PMS.Services;
@@ -29,7 +31,11 @@ public class Program
             options => options.UseSqlServer(builder.Configuration.GetConnectionString("PMS-SQLSERVER"))
         );
 
-   
+        builder.Services.AddIdentity<Users, IdentityRole>()
+            .AddEntityFrameworkStores<PMSDbContext>()
+            .AddDefaultTokenProviders();
+
+
 
         builder.Services.AddScoped<IOrderRepository, OrderRepository>();
         builder.Services.AddScoped<IPaintProductRepository, PaintProductRepository>();
@@ -72,6 +78,7 @@ public class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
 

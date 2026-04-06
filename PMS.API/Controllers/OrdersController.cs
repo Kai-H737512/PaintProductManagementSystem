@@ -20,16 +20,16 @@ namespace PMS.API.Controllers
         }
 
         [HttpGet("PaginatedOrders")]
-        public IActionResult GetPaginatedOrders([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        public async Task<IActionResult> GetPaginatedOrders([FromQuery] int pageNumber, [FromQuery] int pageSize)
         {
-            List<Order> filteredOrders = _orderService.GetPaginatedOrders(pageNumber, pageSize);
+            List<Order> filteredOrders = await _orderService.GetPaginatedOrdersAsync(pageNumber, pageSize);
             return Ok(filteredOrders);
         }
 
         [HttpGet("{orderId}")]
-        public IActionResult GetOrderById(int orderId)
+        public async Task<IActionResult> GetOrderById(int orderId)
         {
-            var order = _orderService.GetOrderById(orderId);
+            var order = await _orderService.GetOrderByIdAsync(orderId);
             return Ok(order);
         }
 

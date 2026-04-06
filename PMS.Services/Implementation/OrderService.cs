@@ -17,9 +17,9 @@ public class OrderService: IOrderService
         _paintProductRepository = paintProductRepository;
     }
 
-    public Order GetOrderById(int orderId)
+    public async Task<Order> GetOrderByIdAsync(int orderId)
     {
-        var order = _orderRepository.GetOrderById(orderId);
+        var order = await _orderRepository.GetOrderByIdAsync(orderId);
 
         if (order == null)
         {
@@ -29,13 +29,13 @@ public class OrderService: IOrderService
         return order;
     }
 
-    public List<Order> GetPaginatedOrders(int pageNumber, int pageSize)
+    public async Task<List<Order>> GetPaginatedOrdersAsync(int pageNumber, int pageSize)
     {
         if (pageNumber <= 0 || pageSize <= 0)
         {
             throw new ArgumentOutOfRangeException("Page numberor or Page size is invalid");
         }
-        var orders = _orderRepository.GetPaginatedOrders(pageNumber, pageSize);
+        var orders = await _orderRepository.GetPaginatedOrdersAsync(pageNumber, pageSize);
 
         if (orders == null || orders.Count == 0)
         {

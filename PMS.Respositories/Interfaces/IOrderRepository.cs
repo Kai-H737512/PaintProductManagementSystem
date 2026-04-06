@@ -5,7 +5,7 @@ namespace PMS.Respositories.Interfaces;
 
 public interface IOrderRepository
 {
-    Order? GetOrderById(int orderId);
+    Task<Order?> GetOrderByIdAsync(int orderId);
 
-    List<Order> GetPaginatedOrders(int pageNumber, int pageSize);
+    Task<List<Order>> GetPaginatedOrdersAsync(int pageNumber, int pageSize);
 }

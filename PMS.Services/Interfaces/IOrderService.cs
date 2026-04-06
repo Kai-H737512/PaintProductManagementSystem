@@ -5,6 +5,6 @@ namespace PMS.Services.Interfaces;
 
 public interface IOrderService
 {
-    List<Order> GetPaginatedOrders(int pageNumber, int pageSize);
-    Order GetOrderById(int orderId);
+    Task<List<Order>> GetPaginatedOrdersAsync(int pageNumber, int pageSize);
+    Task<Order> GetOrderByIdAsync(int orderId);
 }

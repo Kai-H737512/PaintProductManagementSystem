@@ -71,7 +71,7 @@ namespace PMS.API.Controllers
         public IActionResult CreatePaintProduct([FromBody] CreatePaintProductRequest request) //Model binding, 模型绑定， parameter, map from incoming http request body
         {
             var paintProduct = _mapper.Map<PaintProduct>(request);
-            var createdPaintProduct = _paintProductService.CreatePaintProduct(paintProduct);
+            var createdPaintProduct = _paintProductService.CreatePaintProductAsync(paintProduct);
 
             var dto = _mapper.Map<PaintProductDto>(createdPaintProduct);
             return CreatedAtAction(nameof(GetProductById), new { productId = createdPaintProduct.Id }, dto);
